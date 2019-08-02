@@ -15,6 +15,7 @@ This is a small website for corporations to order the drinks.
 - Fill the form to add a new order
 - Click small trash icons in lists to delete orders
 - Press Edit icon to update orders in the same form of adding new drink 
+<br/>
 
 <p align="center">
   <img src="./resource/img/github_drink.png" width="75%" alt="preview"/>
