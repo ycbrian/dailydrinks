@@ -1,0 +1,208 @@
+
+/* * * * * * * * 
+ Init Setup
+* * * * * * * */ 
+*{      
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    clear:both;
+    display: block;
+    height:0;
+    visibility: hidden;
+}
+
+.container{
+    position:relative;
+} 
+
+/* * * * * * * * 
+ Reusable style 
+* * * * * * * */ 
+
+/* header */
+h1{
+    font-size:240%;
+}
+
+/* button */
+button{
+    outline:none;
+    padding:10px;
+    border-radius:10%;
+    border:1px rgb(206, 206, 206) solid;
+    font-size:130%;
+    font-weight:300;
+    background:rgb(255, 192, 74);
+    margin-top:10px;
+    -webkit-transition: background 0.2s, border 0.2s;
+    transition: background 0.2s, border 0.2s;
+}
+
+button:hover,
+button:active{
+    font-size:130%;
+    background:rgb(250, 162, 0);
+    border:1px white solid;
+}
+
+/* input */
+input{
+    outline:none;
+    vertical-align:middle;
+    margin-bottom:4px;
+    font-size:75%;
+    padding:4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    padding-left:10px;
+    border:none;
+    margin-left:3px;
+    border-radius: 5px;
+}
+
+/* textarea */
+textarea{
+    width:75%;
+    font-size:75%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    padding: 10px 15px;
+}
+
+/* * * * * * * * 
+ Order beverages
+* * * * * * * */ 
+.order{
+    float:left;
+    width:50%;
+}
+
+/* drink_header */
+.order .drink_head{
+    text-align:center;
+    padding-top:20%;
+    padding-bottom: 20%; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.15)), to(rgba(255,255,255,0.15))),url(../img/Orange-bubble.png); 
+    background-image: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15)),url(../img/Orange-bubble.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.drink_head h1{
+    padding-top:15px;
+}
+
+.drink_head p{
+    font-size:150%;
+    padding-bottom:0;
+}
+
+/* drink_form */
+.drink_form{
+    padding-left:20%;
+    padding-top:10%;
+    padding-bottom:10%;
+    background-color: rgba(255, 187, 0, 0.315);
+}
+
+.drink_input{
+    width:100%;
+    padding-top:5px;
+}
+
+.drink_input p{
+    padding-bottom:10px;
+}
+
+.drink_input textarea{
+    outline:none;
+    border-radius: 5px;
+    border:none;
+}
+
+.drink_input button i{
+    padding-left:6px;
+}
+
+/* * * * * * * * 
+ Beverage lists
+* * * * * * * */ 
+
+.list{
+    float:left;
+    width:50%;
+    height:100vh;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(200,200,200,0.5)),to(rgba(200,200,200,0.5))) ,url(../img/milk\ tea.png);
+    background-image: linear-gradient(rgba(200,200,200,0.5),rgba(200,200,200,0.5)) ,url(../img/milk\ tea.png);
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    font-size:90%;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+/* lest_item */
+.list_all{
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom: 4%;
+    padding-top:10px;
+    padding-bottom:10px;
+    background: rgba(255,255,255,0.75);
+    border-radius: 5px;
+}
+
+.list_all p{
+    padding:10px 0 2px 40px;
+    word-wrap:break-word;
+}
+
+.list_all button{
+    margin-top:0;
+    margin-right:10px;
+    font-size:80%;
+    padding:5px 10px;
+    float:right;
+}
+
+.list_all .list_note{
+    padding-right:30px;
+}
+
+/* list_item_head */
+.item_head{
+    padding-bottom:2px;
+}
+
+.item_head p{
+    float:left;
+    padding-left:0px;
+    border-bottom:1px black solid;
+    padding-top:0;
+} 
+
+.item_head i{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.far{
+    float:left;
+}

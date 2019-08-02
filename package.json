@@ -1,0 +1,14 @@
+{
+  "name": "dailydrinks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian",
+  "license": "ISC",
+  "dependencies": {
+    "uniqid": "^5.0.3"
+  }
+}

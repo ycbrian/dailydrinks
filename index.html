@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dailydrinks</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="resource/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resource/css/queries.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="order">
+            <div class="drink_head">
+                <h1>Order your drinks</h1>
+                <p>Why don't we get some drinks?</p>
+            </div>
+            <form class="drink_form">
+                <div class="drink_input">
+                    <label for="drink_name">🍹Drink:</label>
+                    <input type="text" id="drink_name" placeholder="My drink" required>
+                </div>
+                <div class="drink_input">
+                    <label for="drink_number">✏️Number:</label>
+                    <input type="number" id="drink_number" placeholder="Order number" min="0" step="1" required>
+                </div>
+                <div class="drink_input">
+                    <p>Additional Note:</p>
+                    <textarea id="drink_note" rows="7"></textarea>
+                </div>
+                <div class="drink_input">
+                    <button class="drink_submit">Submit<i class="fas fa-glass-martini-alt"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="list">
+            <!-- <div class="list_all">
+                <div class="item_head">
+                    <i class="far fa-trash-alt"></i>
+                    <p>Bubble tea<span><i class="fas fa-times"></i>10</span></p>
+                    <button class="list_edit">Edit</button>
+                </div>
+                <div class="clearfix"></div>
+                <p class="list_note">Note</p>
+            </div>
+            <div class="list_all">
+                <div class="item_head">
+                    <i class="far fa-trash-alt"></i>
+                    <p>Soda<span><i class="fas fa-times"></i>10</span></p>
+                    <button class="list_edit">Edit</button>
+                </div>
+                <div class="clearfix"></div>
+                <p class="list_note">Note</p>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/response.js@0.10.0/response.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script type="text/javascript" src="resource/js/index.js"></script>
+</body>
+</html>
