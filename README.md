@@ -13,7 +13,7 @@ This is a small website for corporations to order the drinks.
 ## How to use it
 
 - Fill the form to add a new order
-- Click small trash icons in lists to delete orders
+- Click small trash can icons in lists to delete orders
 - Press Edit icon to update orders in the same form of adding new drinks 
 <br/>
 
