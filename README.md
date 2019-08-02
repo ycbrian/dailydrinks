@@ -1,7 +1,6 @@
 # dailydrinks
 This is a small website for corporation to order the drinks.
 ## features
-<br/>
 
 1. Provide ordering, deleting and editing of list of drinks 
 
